@@ -13,14 +13,12 @@ async def start(client: Client, message: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("HELP", callback_data="help_data"),
-                        InlineKeyboardButton("ABOUT", callback_data="about_data"),
+                        InlineKeyboardButton("🤖 Bot Updates", url="https://telegram.me/BX_Botz"),
+                        InlineKeyboardButton("👥Support Group", url="https://telegram.me/BxSupport"),
                     ],
                     [
-                        InlineKeyboardButton(
-                            "SOURCE CODE",
-                            url="https://github.com/TroJanzHEX/Image-Editor",
-                        )
+                        InlineKeyboardButton("⚙️Help", callback_data="help_data"),
+                        InlineKeyboardButton("🔰About", callback_data="about_data")
                     ],
                 ]
             ),
@@ -39,14 +37,12 @@ async def help(client, message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("BACK", callback_data="start_data"),
-                        InlineKeyboardButton("ABOUT", callback_data="about_data"),
+                        InlineKeyboardButton("🤖 Bot Updates", url="https://telegram.me/BX_Botz"),
+                        InlineKeyboardButton("👥Support Group", url="https://telegram.me/BxSupport"),
                     ],
                     [
-                        InlineKeyboardButton(
-                            "SOURCE CODE",
-                            url="https://github.com/TroJanzHEX/Image-Editor",
-                        )
+                        InlineKeyboardButton("⚙️Help", callback_data="help_data"),
+                        InlineKeyboardButton("🔰About", callback_data="about_data")
                     ],
                 ]
             ),
@@ -65,14 +61,12 @@ async def about(client, message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("BACK", callback_data="help_data"),
-                        InlineKeyboardButton("START", callback_data="start_data"),
+                        InlineKeyboardButton("🤖 Bot Updates", url="https://telegram.me/BX_Botz"),
+                        InlineKeyboardButton("👥Support Group", url="https://telegram.me/BxSupport"),
                     ],
                     [
-                        InlineKeyboardButton(
-                            "SOURCE CODE",
-                            url="https://github.com/TroJanzHEX/Image-Editor",
-                        )
+                        InlineKeyboardButton("⚙️Help", callback_data="help_data"),
+                        InlineKeyboardButton("🔰About", callback_data="about_data")
                     ],
                 ]
             ),
