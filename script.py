@@ -1,24 +1,30 @@
 class script(object):
 
-    START_MSG = """ <b>Hi {}
+    START_MSG = """ <b>Hai {}
 
-I'm a Image Editor Bot which Supports various modes
+`I am a simple Image Editor Bot`.
 
-For more click help....</b>"""
-    HELP_MSG = """Hai, Follow these Steps..
+>> `Please send an image, I can edit your image to desired mode`.
 
-<code>🌀 Send me any Image to Edit..</code>
+👲 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : [ʙx ʙᴏᴛᴢ](https://telegram.me/BX_Botz)"""
+    HELP_MSG = """⇩ Follow these Steps..
 
-<code>🌀 Select the Corresponding mode that you need</code>
+<code>➠ Send me any Image to Edit</code>
 
-<code>🌀 Your Edited Image will be Uploaded </code>
+<code>➠ Select the desired mode that you need</code>
+
+<code>➠ Your Edited Image will be Uploaded</code>
 
 
-© @TroJanzHEX"""
-    ABOUT_MSG = """⭕️<b>My Name : Image Editor</b>
+Made With ❤ By @BX_Botz"""
+    ABOUT_MSG = """➠ **Bot** : `Image Editor`
 
-⭕️<b>Language :</b> <code>Python3</code>
+➠ **Creator** : [ᴍʜᴅ ᴍᴜꜰᴀz](https://telegram.me/Mufaz123)
 
-⭕️<b>Library :</b> <a href='https://docs.pyrogram.org/'>Pyrogram 1.0.7</a>
+➠ **Channel** : @BX_Botz
 
-⭕️<b>Source Code :</b> 👉 <a href='https://github.com/TroJanzHEX/Image-Editor'>Click Here</a>"""
+➠ **Source** : [Click here](https://t.me/nokiyirunnoippokitum)
+
+➠ **Language** : [Python3](https://python.org/)
+
+➠ **Server** : [Heroku](https://heroku.com/)"""
