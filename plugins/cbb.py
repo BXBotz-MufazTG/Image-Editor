@@ -106,12 +106,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("HELP", callback_data="help_data"),
-                    InlineKeyboardButton("ABOUT", callback_data="about_data"),
-                ],
-                [
-                    InlineKeyboardButton(
-                        "SOURCE CODE", url="https://github.com/TroJanzHEX/Image-Editor"
+                        InlineKeyboardButton("🤖 Bot Updates", url="https://telegram.me/BX_Botz"),
+                        InlineKeyboardButton("👥Support Group", url="https://telegram.me/BxSupport"),
+                    ],
+                    [
+                        InlineKeyboardButton("⚙️Help", callback_data="help_data"),
+                        InlineKeyboardButton("🔰About", callback_data="about_data"
                     )
                 ],
             ]
@@ -126,12 +126,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("BACK", callback_data="start_data"),
-                    InlineKeyboardButton("ABOUT", callback_data="about_data"),
-                ],
-                [
-                    InlineKeyboardButton(
-                        "SOURCE CODE", url="https://github.com/TroJanzHEX/Image-Editor"
+                        InlineKeyboardButton("🤖 Bot Updates", url="https://telegram.me/BX_Botz"),
+                        InlineKeyboardButton("👥Support Group", url="https://telegram.me/BxSupport"),
+                    ],
+                    [
+                        InlineKeyboardButton("⚙️Help", callback_data="help_data"),
+                        InlineKeyboardButton("🔰About", callback_data="about_data"
                     )
                 ],
             ]
@@ -143,12 +143,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("BACK", callback_data="help_data"),
-                    InlineKeyboardButton("START", callback_data="start_data"),
-                ],
-                [
-                    InlineKeyboardButton(
-                        "SOURCE CODE", url="https://github.com/TroJanzHEX/Image-Editor"
+                        InlineKeyboardButton("🤖 Bot Updates", url="https://telegram.me/BX_Botz"),
+                        InlineKeyboardButton("👥Support Group", url="https://telegram.me/BxSupport"),
+                    ],
+                    [
+                        InlineKeyboardButton("⚙️Help", callback_data="help_data"),
+                        InlineKeyboardButton("🔰About", callback_data="about_data"
                     )
                 ],
             ]
